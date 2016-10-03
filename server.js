@@ -10,3 +10,5 @@ new WebPackServer(webpack(config), {
   hot: true,
   historyApiFallback: true
 }).listen(8888, 'localhost')
+
+console.log('Listening on localhost at 8888');
